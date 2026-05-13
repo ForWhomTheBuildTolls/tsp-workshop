@@ -28,7 +28,7 @@ Decide which crown you're chasing, or try to take both.
 2. Change `NAME` to something distinctive.
 3. Rewrite `getMove(myHistory, opponentHistory)` to play well.
 4. Test with `node runner.js` — runs your bot against the reference strategies and prints a leaderboard.
-5. When happy, rename your file to `bot_<yourname>.js` and submit.
+5. When happy, rename your file to `bot_<yourname>.js` and post it in the workshop Microsoft Teams channel. One file per person — that's the submission.
 
 ## Constraints
 
