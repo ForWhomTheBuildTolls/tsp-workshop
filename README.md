@@ -40,12 +40,12 @@ Each round, you choose `C` (cooperate) or `D` (defect). Your opponent does the s
 
 Defecting always pays more in a single round — whatever they do. But matches are 200 rounds, and your bot remembers everything. Your move now affects how the opponent treats you later.
 
-## The tournament
+## The tournament — two competitions, two prizes
 
-Two stages:
+1. **🏆 Axelrod Cup** — round-robin. Every bot plays every other bot. Highest total points wins. This is the classic Axelrod 1980 framing: cooperation pays when you're polite to many opponents.
+2. **👑 Last Bot Standing** — single-elimination knockout, seeded by the Axelrod Cup standings (top seeds get byes when the field size isn't a power of 2; highest seed plays lowest each round). Different game: in 1v1 a defector almost always edges a cooperator, so winning here often means a more aggressive strategy.
 
-1. **Round-robin** — every bot plays every other bot. Total points determines your seed.
-2. **Seeded knockout** — top seeds get byes; pairings are highest-seed-vs-lowest-seed each round. Last bot standing wins.
+A bot that wins both is rare. Pick a target — or try to win both.
 
 ## How to write a bot
 

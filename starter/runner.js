@@ -108,6 +108,7 @@ function printLeaderboard(scores, bots) {
   const maxScore = ranked[0][1];
 
   console.log('');
+  console.log(' 🏆 AXELROD CUP — round-robin standings');
   console.log(' RANK  ' + 'BOT'.padEnd(maxName + 2) + 'SCORE'.padStart(8) + '   BAR');
   console.log(' ' + '─'.repeat(maxName + 35));
 

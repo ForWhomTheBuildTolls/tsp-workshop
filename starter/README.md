@@ -15,10 +15,12 @@ Each round, you choose `'C'` (cooperate) or `'D'` (defect). Your opponent does t
 
 You play 200 rounds per match.
 
-## The tournament — two stages
+## The tournament — two competitions, two prizes
 
-1. **Round-robin** — every bot plays every other bot once. Your total score across all matches determines your **seed**.
-2. **Seeded knockout** — top seeds get byes when the field size isn't a power of 2. Pairings are highest-seed-vs-lowest-seed each round. Last bot standing in the bracket wins.
+1. **🏆 Axelrod Cup** — round-robin. Every bot plays every other bot once. Highest total points wins. (Robert Axelrod's 1980 framing — cooperation tends to pay across a wide field.)
+2. **👑 Last Bot Standing** — single-elimination bracket seeded by the Axelrod Cup standings. Top seeds get byes when the field isn't a power of 2. In 1v1 the maths flips: a pure defector usually edges a pure cooperator by ~5 points, so the bracket often rewards a more aggressive bot.
+
+Decide which crown you're chasing, or try to take both.
 
 ## What you do
 
@@ -41,6 +43,9 @@ You play 200 rounds per match.
 - The runner is local and free. Iterate quickly against the references before you submit.
 - More tokens spent ≠ smarter bot. Some of the strongest strategies in IPD history are 3-4 lines of code.
 
-## Prize
+## Prizes
 
-**Tournament champion** — last bot standing in the seeded knockout. Glory, bragging rights, and the satisfaction of beating your colleagues.
+- **🏆 Axelrod Cup** — top of the round-robin leaderboard.
+- **👑 Last Bot Standing** — last bot left in the knockout bracket.
+
+Glory, bragging rights, and the satisfaction of beating your colleagues — twice.
